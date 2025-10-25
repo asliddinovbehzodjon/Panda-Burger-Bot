@@ -7,8 +7,8 @@ After=network.target
 Type=simple
 User=root
 Group=root
-WorkingDirectory=/pandaburgerbot
-ExecStart=/pandaburgerbot/env/bin/python /pandaburgerbot/app.py
+WorkingDirectory=/pandabot
+ExecStart=/pandabot/env/bin/python /pandabot/app.py
 RestartSec=10
 Restart=always
 
